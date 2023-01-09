@@ -13,9 +13,18 @@ h1 {
   font-size: 5rem;
 }
 
+.wrapper {
+  display: flex;
+}
+
 .posts {
   display: flex;
   flex-wrap: wrap;
+  flex-basis: 75%;
+}
+
+.post-details {
+  color: white;
 }
 
 .card {
